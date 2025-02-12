@@ -1,3 +1,6 @@
+<details>
+<summary>Image Reduction Pipeline</summary>
+
 # How to Use the Image Reduction Pipeline
 
 This guide provides instructions on how to set up and use the Image Reduction Pipeline for processing astronomical images. The pipeline is designed to reduce bias, flat, and data frames, perform photometry, and calculate production rates for comets.
@@ -103,8 +106,12 @@ This project is licensed under the [MIT License](LICENSE).
 You are free to use, modify, and distribute this software, provided that you include the original license and attribution.
 
 Here's a guide on how to use the Photometry GUI:
+</details>
 
 ---
+<details>
+<summary>Photometry GUI</summary>
+
 
 # **Photometry GUI - User Guide**
 
@@ -161,3 +168,4 @@ The GUI consists of four main tabs:
 
 ### **8. Exiting**
 - Click **"Quit"** to close the application.
+</details>
