@@ -145,9 +145,9 @@ Here's a guide on how to use the Photometry GUI:
 The Photometry GUI is designed to facilitate aperture photometry on FITS images. Users can load image data, define photometric parameters, and process astronomical objects such as stars and comets.
 
 ## **Installation Requirements**
-Ensure you have the following Python libraries installed:
+Ensure you have the required Python libraries installed. Use the requirements.txt file to install the correct version of the packages:
 ```bash
-pip install numpy astropy photutils pandas tabulate ttkbootstrap matplotlib
+pip install -r requirements.txt
 ```
 
 ## **Launching the Application**
