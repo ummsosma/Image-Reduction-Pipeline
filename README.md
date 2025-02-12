@@ -101,3 +101,63 @@ Please ensure your contributions follow best practices and include proper docume
 
 This project is licensed under the [MIT License](LICENSE).  
 You are free to use, modify, and distribute this software, provided that you include the original license and attribution.
+
+Here's a guide on how to use the Photometry GUI:
+
+---
+
+# **Photometry GUI - User Guide**
+
+## **Introduction**
+The Photometry GUI is designed to facilitate aperture photometry on FITS images. Users can load image data, define photometric parameters, and process astronomical objects such as stars and comets.
+
+## **Installation Requirements**
+Ensure you have the following Python libraries installed:
+```bash
+pip install numpy astropy photutils pandas tabulate ttkbootstrap matplotlib
+```
+
+## **Launching the Application**
+Run the script:
+```bash
+python photometry_gui.py
+```
+
+## **User Interface Overview**
+The GUI consists of four main tabs:
+1. **Parameters** - Set photometric parameters.
+2. **Plots** - View plotted results.
+3. **Table** - Displays image metadata.
+4. **Photometry Output** - View processed photometry results.
+
+## **How to Use**
+### **1. Loading Data**
+1. Click **"Browse"** to select the folder containing your FITS images and photometry list (`list_photometry.csv`).
+2. The application will populate the table with image metadata.
+
+### **2. Setting Parameters**
+- **Filename**: Displays the selected file.
+- **Radius**: Set the aperture radius for photometry.
+- **Position**: Define the target’s (x, y) position in the image.
+- **Inner & Outer Radius**: Specify annulus radii for background estimation.
+
+### **3. Modifying Table Data**
+- Left-click a row to select it.
+- Right-click the table to update the selected row with the current parameter values.
+
+### **4. Automating Settings**
+- **Set For All Star Images**: Apply the current parameters to all star images.
+- **Set For All Comet Images**: Apply the current parameters to all comet images.
+
+### **5. Running Photometry**
+- Click **"Photometry"** to process the selected images.
+- Results are displayed in the **Photometry Output** tab.
+
+### **6. Plotting Data**
+- Click **"Plot"** to visualize the selected image.
+
+### **7. Exporting Results**
+- The processed photometry data is saved as a CSV file.
+
+### **8. Exiting**
+- Click **"Quit"** to close the application.
