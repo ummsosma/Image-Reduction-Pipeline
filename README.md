@@ -25,6 +25,8 @@ Before running the pipeline, ensure you have the following:
 - **Google Drive**: All input files (FITS images, CSV files) should be stored in Google Drive.
 - **Python Libraries**: The pipeline requires several Python libraries, which will be installed automatically when you run the code.
 
+**Note**: This code is in the .ipynb type and can be converted to work with VSCode or Juypter Notebook. However, this is not currently implemented or supported by me. It is written only to work for google drive.
+
 ---
 
 ## Setup
