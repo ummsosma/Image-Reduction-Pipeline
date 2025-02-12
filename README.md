@@ -55,8 +55,16 @@ The pipeline will:
 ### Check Output: The processed images will be saved in the `final_files` folder within your specified directory. 
 ## Photometry 
 ### Prepare Photometry CSV File:
-Ensure you have a CSV file (`list_photometry.csv`) with the following columns: 
-| Column | Description | |---------|------------| | `date` | Date of observation | | `filenum` | File number | | `type` | Type of image (star or comet) | | `x` | X-coordinate of the object | | `y` | Y-coordinate of the object | 
+Ensure you have a CSV file (`list_photometry.csv`) with the following columns:  
+
+| Column   | Description               |
+|----------|---------------------------|
+| `date`   | Date of observation       |
+| `filenum` | File number               |
+| `type`   | Type of image (star or comet) |
+| `x`      | X-coordinate of the object |
+| `y`      | Y-coordinate of the object |
+
 ### Run Photometry: Execute the photometry section of the notebook. 
 The pipeline will: 
 - Perform aperture photometry on stars and comets.
