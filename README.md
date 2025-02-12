@@ -86,27 +86,43 @@ The pipeline will:
 - If the aperture size is not correct, you can adjust it interactively during the photometry step.
 ## Contributing
 
-Contributions are welcome! If you'd like to improve the Image Reduction Pipeline, follow these steps:
+Contributions are welcome! If you'd like to improve the **Image Reduction Pipeline**, follow these steps:
 
-1. **Fork the Repository**: Click the "Fork" button at the top right of this repository to create your own copy.
-2. **Clone Your Fork**: Clone the repository to your local machine using:
-   ```bash
-   git clone https://github.com/your-username/Image-Reduction-Pipeline.git
-   ```
-3. **Create a Branch**: Create a new branch for your feature or bug fix:
-   ```bash
-   git checkout -b feature-name
-   ```
-4. **Make Changes**: Edit the code or documentation as needed.
-5. **Commit and Push**: Commit your changes and push to your fork:
-   ```bash
-   git add .
-   git commit -m "Describe your changes"
-   git push origin feature-name
-   ```
-6. **Submit a Pull Request**: Go to the original repository and submit a pull request with a clear description of your changes.
+### 1. Fork the Repository
+Click the **Fork** button at the top right of this repository to create your own copy.
 
-Please ensure your contributions follow best practices and include proper documentation.
+### 2. Clone Your Fork
+Clone the repository to your local machine using:
+
+```bash
+git clone https://github.com/your-username/Image-Reduction-Pipeline.git
+```
+
+### 3. Create a Branch
+Create a new branch for your feature or bug fix:
+
+```bash
+git checkout -b feature-name
+```
+
+### 4. Make Changes
+Edit the code or documentation as needed.
+
+### 5. Commit and Push
+Commit your changes and push to your fork:
+
+```bash
+git add .
+git commit -m "Describe your changes"
+git push origin feature-name
+```
+
+### 6. Submit a Pull Request
+Go to the original repository and submit a pull request with a clear description of your changes.
+
+---
+
+**Note**: I am no longer working on this project, so this code can be considered deprecated. Please contact **Dr. Adam McKay** at Appalachian State University for further inquiries. You can reach him via email at [mckayaj@appstate.edu](mailto:mckayaj@appstate.edu).
 
 ## License
 
